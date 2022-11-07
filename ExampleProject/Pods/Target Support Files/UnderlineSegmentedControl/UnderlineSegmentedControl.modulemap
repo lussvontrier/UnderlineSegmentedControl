@@ -1,0 +1,6 @@
+framework module UnderlineSegmentedControl {
+  umbrella header "UnderlineSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

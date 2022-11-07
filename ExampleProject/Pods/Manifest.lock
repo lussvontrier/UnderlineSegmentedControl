@@ -1,0 +1,16 @@
+PODS:
+  - UnderlineSegmentedControl (1.0.1)
+
+DEPENDENCIES:
+  - UnderlineSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - UnderlineSegmentedControl
+
+SPEC CHECKSUMS:
+  UnderlineSegmentedControl: 5163b27428a4c1d72bd26a50b6ebd7616951fe35
+
+PODFILE CHECKSUM: e80c06a03701400e964a4c63e910e0f54f6cd832
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,11 @@
+framework module UnderlineSegmentedControl {
+  umbrella header "UnderlineSegmentedControl.h"
+
+  export *
+  module * { export * }
+}
+
+module UnderlineSegmentedControl.Swift {
+    header "UnderlineSegmentedControl-Swift.h"
+    requires objc
+}
