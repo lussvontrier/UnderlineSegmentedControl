@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UnderlineSegmentedControl
+import QuartzCore
+import Swift
+import UIKit
+@_exported import UnderlineSegmentedControl
+import _Concurrency
+@objc @_Concurrency.MainActor(unsafe) public class UnderlineSegmentControl : UIKit.UIControl {
+  @_Concurrency.MainActor(unsafe) public var selectedSegmentIndex: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(with segments: [Swift.String], options: UnderlineSegmentedControl.UnderlineSegmentedControlOptions? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) public func updateSegmentSelectionInteractive(with xPosition: CoreGraphics.CGFloat, frameWidth: CoreGraphics.CGFloat)
+  @_Concurrency.MainActor(unsafe) public func updateSegmentSelection(with index: Swift.Int)
+  @objc deinit
+}
+public struct UnderlineSegmentedControlOptions {
+}
